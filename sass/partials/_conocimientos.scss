@@ -1,0 +1,116 @@
+.main2{
+    display: grid;
+    gap: 25px;
+    text-align: center;
+    h2{   
+         display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 1.3em;
+        color: #c4c3ca;
+        
+    } 
+
+    .bar-t{
+        position: relative;
+        height: 3px;
+        border-radius: 10px;
+        background-color: rgba(196, 195, 202, 0.15);
+    }
+    .bar-t{
+        position: relative;
+        height: 3px;
+        border-radius: 10px;
+        background-color: rgba(196, 195, 202, 0.15);
+    }
+    .bar-q{
+        position: absolute;
+        height: 3px;
+        border-radius: 10px;
+    }
+    .bar-t .a{
+        width: 70%;
+        background-color: #ffef9f;
+    }
+    .bar-t .b{
+        width: 1%;
+        background-color: #ffac81;
+    }
+}
+   
+.habilidad{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    span{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 40px;
+    }
+}
+
+/* Conocimientos */
+.aprendido{
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card{
+	width: 70%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: rgb(42, 42, 42);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+    height: 200px;
+    padding: 0 15px;
+    text-align: left;
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(231, 227, 227, 0.4);
+        transform: translateY(-3%);
+    } 
+    h2{
+        margin-bottom: 5px;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    h3{
+        color: #c4c3ca;
+        font-size: 1.2rem;
+    }
+    h4{
+        color: #c4c3ca;
+        font-size: 1rem;
+    }
+    p{
+        line-height: 1.5;
+        color: #c4c3ca;
+        font-size: 0.8rem;
+        margin: 5px 0px;
+    }
+    a{
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #2fb4cc;
+        border: 1px solid #2fb4cc;
+        border-radius: 4px;
+        transition: all 400ms ease;
+        margin-bottom: 5px;
+    }
+    a:hover{
+        background: #2fb4cc;
+        color: #fff;
+    }
+}

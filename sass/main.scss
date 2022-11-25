@@ -1,0 +1,18 @@
+@use './partials/_index.scss';
+@use './partials/_conocimientos.scss';
+@use './partials/_experiencia.scss';
+@use './partials/proyecto.scss';
+@use './partials/contacto.scss';
+
+footer{
+    display: block;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+    font-weight: 500;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
