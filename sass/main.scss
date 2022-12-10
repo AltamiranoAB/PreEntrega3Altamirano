@@ -4,6 +4,9 @@
 @use './partials/proyecto.scss';
 @use './partials/contacto.scss';
 
+body{
+    position: relative;
+}
 footer{
     display: block;
     position: absolute;
